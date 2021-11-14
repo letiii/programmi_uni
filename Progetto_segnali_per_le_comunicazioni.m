@@ -14,7 +14,7 @@ clc
 % banda e passa alto).
 % Moltiplica i segnali in uscita da ciascun filtro per
 % un coefficiente 0<a<1.
-% Somma i segnali così modificati per ottenere un segnale discreto
+% Somma i segnali cosÃ¬ modificati per ottenere un segnale discreto
 % modificato in uscita.
 % Ricostruisce il segnale tempo continuo a partire dal segnale discreto
 % modificato e lo riproduce tramite gli altopralanti del PC.
@@ -24,7 +24,7 @@ clc
 
 % Ho fatto diverse prove e c'era un parziale miglioramento alle fs tra
 % 15000 e 40000, che prontamente svaniva dopo che testavo di nuovo, per sicurezza, la fs
-% scelta. Ho notato che questo accadeva perché il mio pc
+% scelta. Ho notato che questo accadeva perchÃ© il mio pc
 % tendeva a scegliere i valori "casuali" di 'a' molto vicini a 1, quindi il
 % segnale modificato era molto vicino all'originale. Ho quindi con altre
 % prove visto che i valori di 'a' che ora ho impostato manualmente fanno
