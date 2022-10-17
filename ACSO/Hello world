@@ -1,0 +1,8 @@
+.data
+OUTSTRING: .asciz  "Hello World!"
+.text
+MAIN: li a7,4
+la a0, OUTSTRING
+ecall
+EXIT: li a7, 93
+li a0, -1
